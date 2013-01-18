@@ -1,0 +1,11 @@
+inherit gnome2
+
+NAME="gnome-specimen"
+VERSION=0.4
+RELEASE=3
+CATEGORY="Graphics"
+SUMMARY="Font preview and comparison tool"
+DESCRIPTION="A tool for previewing and comparing fonts on the Gnome desktop."
+HOMEPAGE="https://launchpad.net/gnome-specimen"
+SRC_URI="http://uwstopia.nl/geek/projects/gnome-specimen/releases/${P}.tar.gz"
+PATCH_URI="0.4-deprecated.patch"
